@@ -1,0 +1,287 @@
+:: StoryTitle
+Rose Titanium
+
+
+:: StoryData
+{
+  "ifid": "FD1CFA6E-2EE2-4077-93A5-7B0394529170",
+  "format": "Harlowe",
+  "format-version": "3.3.4",
+  "start": "The Backstory",
+  "zoom": 1
+}
+
+
+:: \ Camp end {"position":"800,2000","size":"100,100"}
+"And to a fun and exciting day like this I rest"
+<img src="https://mobileimages.lowes.com/productimages/64b42661-46ec-4c2c-ad71-9f49619b177b/42048767.jpg">
+
+[[Chapter 2 | ch2 start]]
+
+(set: $endcamp to 1)
+
+
+:: \ DR 42 {"position":"1050,500","size":"100,100"}
+<img src="https://media.gettyimages.com/id/901100/photo/hasbros-bob-the-builder-electronic-talking-scoop-is-on-display-in-an-undated-photo-the-toy-is.jpg?s=612x612&w=gi&k=20&c=I0MU5mGGc0KIIMwxUxQEolPXHg7eLLSbpJF5efQu00Q=">
+This part of the story is still under construction
+
+Sorry :P
+
+
+:: \ DR2 {"position":"750,850","size":"100,100"}
+Rose dodges the attack. It turned around and is running at her once again.
+[[Draw knife|DR3]]
+
+
+(set:$dmg to 0)
+
+
+:: \ DR2.5 {"position":"1000,850","size":"100,100"}
+Rose punches it to the side but still managing to claw at her arm. 
+
+[[Draw knife |DR3]]
+(set:$dmg to 1)
+
+
+:: \ DR4 {"position":"750,1100","size":"100,100"}
+Rose grabs the club and bashes the oncoming giant lizard down into the ground. It seems uncounscious.
+
+[[Stab it to kill it| DR5.5]]
+[[Leave it |DR5]]
+
+
+:: \ DR4.5 {"position":"1050,1100","size":"100,100"}
+Rose slashes it's legs. It seemed to work as the lizard holds it up unable to put weight on it. It doesn't seem like it will lunge at Rose again but it stands ready for an attack.
+
+[[Slash another leg| DR4.55]]
+
+
+:: \ DR4.55 {"position":"1050,1250","size":"100,100"}
+Rose dodges its claws and slides under the beast, slashing its hind legs. Now the lizard is unable to move.
+
+[[Finish it off | DR5.5]]
+
+
+:: \ DR5.5 {"position":"900,1350","size":"100,100"}
+Rose finishes the lizard off. Rose walks around examining the features on the creature. It has deep green reptilian scales on its snake like body. But what is fascinating is that if it was once a snake now it has long, powerful legs.
+
+(set: $eh to 1)
+(display:"damage ways")
+
+
+:: \ Danger route {"position":"875,550","size":"100,100"}
+Rose runs even further ahead of the team and loses them. Luckily she knows how to take care of herself if she gets lost for a long time. 
+There is an opening in the trees. A quick break she thinks but unbenounced to her something is lurking. 
+
+[[Continue|DR1]]
+
+
+:: \ Good end {"position":"375,1600","size":"100,100"}
+"What a lovely day. I hope to find more cute little creatures. :)"
+
+<img src="https://blog.displate.com/wp-content/uploads/2021/11/img_61811d9e878f7.jpg">
+
+
+[[Chapter 2 | ch2 start]]
+
+(set: $endhb to 0)
+
+
+:: \ SR2 {"position":"150,850","size":"100,100"}
+"Hey I found something." She alerts one of the handlers to retireve one of these //Turtle Ducks// (the name she internally created). They take pictures of it from every angle and do a quick biological scan. 
+
+[[Continue | SR3]]
+
+
+:: \ SR2.5 {"position":"350,850","size":"100,100"}
+The overwhelming cuteness of the animal brings Rose to pick up the //Turtle Duck// (the name she internally created). She shows it to her colleauges and a scientist trys to take it from her. "Wait lemme look at it a little longer"
+
+[[Continue | SR3]]
+
+
+:: \ SR3 {"position":"250,975","size":"100,100"}
+They send the capsule back to base camp for further study. The day has reached its hottest point so they take a break to eat lunch and examine the scans of the two new species. 
+
+[[Continue | SR4]]
+
+
+:: \ SR4 {"position":"250,1100","size":"100,100"}
+They continue a little further but find no more fauna to document. But they do have 25 new flora samples to study so a successful day. The day starts to come to a close so they start to head back to camp. 
+
+[[Continue | SR5]]
+
+
+:: \ SR5 {"position":"250,1225","size":"100,100"}
+When they get back to base camp Rose immediately goes to the enclosure where they keep to study new fauna. She sees the Turtle Ducks and ask to be let inside their enclosure. She walks slowly and brings some food that they eat so they trust her.
+
+[[Pet the Turtle Ducks | SR6]]
+[[Feed the Turtle Ducks | SR6.5]]
+
+
+:: \ SR6 {"position":"150,1350","size":"100,100"}
+She goes to pet the Turtle Ducks but they waddle away. 
+
+[[Feed the Turtle Ducks | SR6.5]]
+
+
+:: \ SR6.5 {"position":"375,1350","size":"100,100"}
+Rose grabs the food and the ducks sense the food and come closer. She holds it to their mouths and they start nibbling on it. So cute she screams internally. They start to become comfortable with Rose and they go to sit on her lap. They fall asleep in her lap and she stays there until they wake up. 
+
+[[Continue | SR7]]
+
+
+:: \ SR7 {"position":"375,1475","size":"100,100"}
+Rose leaves the ducks and goes to grab dinner. She then goes off into her room to sleep. A crew members room is not the biggest but its comfortable. Rose has decked out her room with posters and collectibles. 
+
+[[End | Good end]]
+
+
+:: \ Safe route {"position":"250,600","size":"100,100"}
+Rose comes to a stop. She leans back against the tree to wait for the rest of her team.
+"Took you guys long enough" Though used to her eagerness they all just shrug it off. Rose continues with them. They come across a little frog and squrriel hybrid. Rose goes to grab it. "Wait" says one of the scientists. He reminds Rose that some native frog species of homeworld (earth) were highly venomous. Some one takes a picture of it for documentation. One of the scientist capture it and send it to base camp for further study. 
+
+[[Continue|SR1]]
+
+
+:: \ ch2 start {"position":"1825,300","size":"100,100"}
+<img src="https://media.gettyimages.com/id/901100/photo/hasbros-bob-the-builder-electronic-talking-scoop-is-on-display-in-an-undated-photo-the-toy-is.jpg?s=612x612&w=gi&k=20&c=I0MU5mGGc0KIIMwxUxQEolPXHg7eLLSbpJF5efQu00Q=">
+This part of the story is still under construction
+
+Sorry :P
+
+[[Back to start |The Backstory]]
+
+
+:: Bad Camp end {"position":"950,2000","size":"100,100"}
+"At least this'll protect me for the night."
+
+<img src="https://mobileimages.lowes.com/productimages/64b42661-46ec-4c2c-ad71-9f49619b177b/42048767.jpg">
+
+[[Chapter 2 | ch2 start]]
+
+(set: $endcamp to 2)
+
+
+:: DR 8.1 {"position":"850,1850","size":"100,100"}
+Rose goes deeper into the wilderness of this unkown place. She found a cute little frog and squirrel hybrid. She has a very original name for it, a //Frog Squirrel//. To conclude her day she sets up camp for the night. A high tech tent cabin opens from a box. A comfy enough place to sleep in.
+
+[[End | Camp end]]
+
+
+:: DR1 {"position":"875,725","size":"100,100"}
+A creature jumps from the tree to Rose. She had a feeling she was being watched so she rolled out the way. Now faced to face she can see what it is. Its a slender snake like animal with four long legs. It again lunges at Rose. 
+
+[[Dodge | DR2]]
+[[Punch | DR2.5]]
+
+
+:: DR3 {"position":"875,975","size":"100,100"}
+Rose draws her knife and stabs the left eye of the beast. It winces then starts to circle, growling. 
+[[Use knife| DR4.5]]
+[[Grab club-like stick| DR4]]
+
+
+
+:: DR5 {"position":"725,1350","size":"100,100"}
+Rose walks around examining the features on the creature. It has deep green reptilian scales on its snake like body. But what is fascinating is that if it was once a snake now it has long, powerful legs. Its eyes open. It runs away from Rose into the thck jungle foliage.
+
+(set: $eh to 0)
+(display:"damage ways")
+
+
+:: DR6 {"position":"775,1600","size":"100,100"}
+Rose is finished documenting what she can on this// Eel Hound//(thats what she named it). She knows if she continues to go alone she may be under another attack. But she just thirsts for adventure.
+
+[[Go back to camp|DR7]]
+[[Continue on into the jungle |DR7.1]]
+
+
+:: DR6.5 {"position":"1025,1600","size":"100,100"}
+Rose wraps up her arm in bandage. She then passes out from the unknown effects of the slash.
+
+[[...|DR7.5]] 
+
+
+
+:: DR7 {"position":"675,1725","size":"100,100"}
+She makes her way back to camp. By the time she gets back, the sun is setting.  
+
+(if: $eh is 0)[[Continue|DR8.01]]
+(if: $eh is 1)[[Continue|DR8]]
+
+
+:: DR7.1 {"position":"850,1725","size":"100,100"}
+Rose continues into the jungle, knowing she will have to camp out by herself. [[Continue |DR 8.1]]
+
+
+:: DR7.5 {"position":"1050,1725","size":"100,100"}
+She wakes up and the sun is already setting. She, in her weakened state, she pulls the tent cube out of her bag. The cube starts to fold out into a small cabin tent. She will go back to base camp in the morning if they don't find her tonight. 
+[[End |Bad Camp end]]
+
+
+:: DR8 {"position":"575,1850","size":"100,100"}
+"Where have you been"  asks the commanding officer of this exploration mission.
+"I went out to explore like my job is" "Your job is to explore ''with'' the group. You look a bit roughed up. What happened?" "There was this big snake like think with legs that attacked me." "Did you touch it? Did you get cut by it? We don't know anything about the fauna here you need to be careful." "Well I got some pictures but I had to kill it to protect myself" "Ok we'll send a team to retrieve the body for research. You're not hurt so thats fine but I will have to revoke your exploring privileges for 3 days"
+
+[[End |Suspension end]]
+
+
+:: DR8.01 {"position":"725,1850","size":"100,100"}
+"Where have you been"  asks the commanding officer of this exploration mission.
+"I went out to explore like my job is" "Your job is to explore ''with'' the group. You look a bit roughed up. What happened?" "There was this big snake like think with legs that attacked me." "Did you touch it? Did you get cut by it? We don't know anything about the fauna here you need to be careful." "Well I got some pictures but it ran away"
+"The main thing is that you're not hurt but I will have to suspend you from any exploration activites for 3 days."
+
+[[End |Suspension end]]
+
+
+:: SR1 {"position":"250,725","size":"100,100"}
+As the group travels they stumble across a stream. They create a small bridge to cross. But Rose spots something in the stream. Little duck like creatures with turtle shells swimming along. 
+
+[[Pick up a duck | SR2.5]]
+[[Let a scientist capture it | SR2]]
+
+
+:: SR42 {"position":"1150,500","size":"100,100"}
+<img src="https://media.gettyimages.com/id/901100/photo/hasbros-bob-the-builder-electronic-talking-scoop-is-on-display-in-an-undated-photo-the-toy-is.jpg?s=612x612&w=gi&k=20&c=I0MU5mGGc0KIIMwxUxQEolPXHg7eLLSbpJF5efQu00Q=">
+This part of the story is still under construction
+
+
+
+:: Start the adventure {"position":"750,400","size":"100,100"}
+On the humid jungle planet, Rose is running ahead of the expidition team. It may be dangerous for her to go too far ahead.
+ 
+ [[Keep Running ahead | Danger route]]
+ [[Wait for the group | Safe route]]
+
+
+:: Suspension end {"position":"650,2000","size":"100,100"}
+"Aw man ;-;"
+"Three days here is super long! ;-;"
+<img src="https://t3.ftcdn.net/jpg/03/24/75/00/360_F_324750020_cSlm1jnhLiUR9QyptjaInWQu1fEQ6uVZ.jpg">
+
+[[Chapter 2 | ch2 start]]
+
+(set: $endhb to 1)
+
+
+:: The Arm {"position":"600,2650","size":"100,100"}
+With the crystal in hand, she inserts it into the ports on her new arm. It comes to life and she feels a strange surge of power. The arm illuminates with a lovely green hue. 
+
+
+:: The Backstory {"position":"750,250","size":"100,100"}
+In the year 21XX, humans have become advanced enough to colonize other planets and expand humans to multiple solar systems. We follow the daughter of Zane Titanium, brilliant inventor, scientist, and one of the best explorers of the 22nd century. Rose Titanium is a very adventurous and ambitious young girl. She takes after her father, sometimes a little too much. But sometimes being too adventurous has its consequences. So we start our story here. Rose is exploring a new jungle-like planet to document the flora and fauna. She will be in the expidition team to venture out while the scientists study explored and safe areas. She also wants to see if this planet has a crystal similar to her fathers.
+
+ [[Zane's Story]]
+
+(button:"=XXX=")[[Start the adventure]]
+
+
+:: Zane's Story {"position":"925,250","size":"100,100"}
+He lost his left arm on one of his adventures on a tundra like planet from a giant wolf like creature. But there is a reason he came to that planet. The legend goes that a crystal deep in the mountains of this ice planet have mystical properties. It is believed that it could possibly be used as a power source. He found the crystal for the cost of his arm. He used his advanced prosthesis and the crystal to create his new arm. He found out he could create ice from his new arm and shape it to however he pleases. 
+
+[[Back to start|The Backstory]]
+
+
+:: damage ways {"position":"900,1475","size":"100,100"}
+(if: $dmg is 0)[[Continue|DR6]]
+(if: $dmg is 1)[[Continue|DR6.5]]
